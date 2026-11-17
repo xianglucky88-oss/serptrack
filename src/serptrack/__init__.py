@@ -1,1 +1,1 @@
-"""serptrack baseline (single-responsibility pipeline)."""
+"""serptrack package (single-responsibility pipeline)."""
