@@ -1,0 +1,27 @@
+{
+  "matrix_id": "m-2026-11",
+  "keywords": ["best vpn", "vpn review", "cheap flights"],
+  "sites": [
+    {"site_id": "acme", "host": "acme.example"},
+    {"site_id": "nimbus", "host": "nimbus.example"},
+    {"site_id": "zephyr", "host": "zephyr.example"}
+  ],
+  "contexts": [
+    {"geo": "US", "lang": "en", "device": "desktop"},
+    {"geo": "DE", "lang": "de", "device": "mobile"}
+  ],
+  "fallback": [
+    {
+      "match": {"geo": "DE", "lang": "de", "device": "mobile"},
+      "actual": {"geo": "EU", "lang": "de", "device": "mobile"},
+      "reason": "geo_unavailable"
+    }
+  ],
+  "budget_total": 100,
+  "max_concurrency": 4,
+  "lease_seconds": 30,
+  "generations": [
+    {"gen_id": "g1", "label": "baseline"},
+    {"gen_id": "g2", "label": "follow-up"}
+  ]
+}

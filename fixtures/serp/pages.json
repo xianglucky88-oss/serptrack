@@ -1,0 +1,136 @@
+{
+  "comment": "Offline SERP page fixtures. Entries are keyed by gen_id/keyword/actual geo/lang/device/page.",
+  "pages": [
+    {
+      "gen_id": "g1", "keyword": "best vpn", "geo": "US", "lang": "en", "device": "desktop", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "organic", "url": "https://news.example/vpn", "title": "VPN news"},
+        {"type": "organic", "url": "https://acme.example/a", "title": "Acme VPN A"},
+        {"type": "organic", "url": "https://nimbus.example/", "title": "Nimbus VPN"},
+        {"type": "organic", "url": "https://acme.example/b", "title": "Acme VPN B"},
+        {"type": "organic", "url": "https://zephyr.example/", "title": "Zephyr VPN"},
+        {"type": "special", "kind": "knowledge_panel", "url": null, "title": "VPN knowledge panel"}
+      ]
+    },
+    {
+      "gen_id": "g2", "keyword": "best vpn", "geo": "US", "lang": "en", "device": "desktop", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "ad", "url": "https://promo.example/", "title": "Promo VPN deal"},
+        {"type": "ad", "url": "https://acme.example/landing", "title": "Acme paid landing"},
+        {"type": "organic", "url": "https://news.example/vpn", "title": "VPN news"},
+        {"type": "organic", "url": "https://acme.example/a", "title": "Acme VPN A"},
+        {"type": "special", "kind": "knowledge_panel", "url": null, "title": "VPN knowledge panel"},
+        {"type": "organic", "url": "https://review.example/best", "title": "Review hub"},
+        {"type": "organic", "url": "https://nimbus.example/", "title": "Nimbus VPN"},
+        {"type": "organic", "url": "https://acme.example/b", "title": "Acme VPN B"}
+      ]
+    },
+    {
+      "gen_id": "g2", "keyword": "best vpn", "geo": "US", "lang": "en", "device": "desktop", "page": 2,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "organic", "url": "https://other.example/list", "title": "Other list"},
+        {"type": "organic", "url": "https://zephyr.example/", "title": "Zephyr VPN"}
+      ]
+    },
+    {
+      "gen_id": "g1", "keyword": "vpn review", "geo": "US", "lang": "en", "device": "desktop", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "organic", "url": "https://blog.example/review", "title": "Blog review"},
+        {"type": "organic", "url": "https://acme.example/vpn", "title": "Acme VPN review"},
+        {"type": "organic", "url": "https://zephyr.example/vpn", "title": "Zephyr VPN review"},
+        {"type": "special", "kind": "faq", "url": null, "title": "People also ask"}
+      ]
+    },
+    {
+      "gen_id": "g2", "keyword": "vpn review", "geo": "US", "lang": "en", "device": "desktop", "page": 1,
+      "complete": false, "truncated": true, "async_pending": ["lazy-list"],
+      "blocks": [
+        {"type": "ad", "url": "https://promo.example/review", "title": "Promo review ad"},
+        {"type": "organic", "url": "https://blog.example/review", "title": "Blog review"},
+        {"type": "organic", "url": "https://zephyr.example/vpn", "title": "Zephyr VPN review"}
+      ]
+    },
+    {
+      "gen_id": "g1", "keyword": "cheap flights", "geo": "US", "lang": "en", "device": "desktop", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "organic", "url": "https://fly.example/", "title": "Fly search"},
+        {"type": "organic", "url": "https://nimbus.example/flights", "title": "Nimbus flights"}
+      ]
+    },
+    {
+      "gen_id": "g1", "keyword": "cheap flights", "geo": "US", "lang": "en", "device": "desktop", "page": 2,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "organic", "url": "https://deals.example/", "title": "Deals"},
+        {"type": "organic", "url": "https://nimbus.example/flights", "title": "Nimbus flights (page 2)"}
+      ]
+    },
+    {
+      "gen_id": "g2", "keyword": "cheap flights", "geo": "US", "lang": "en", "device": "desktop", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "organic", "url": "https://fly.example/", "title": "Fly search"},
+        {"type": "organic", "url": "https://deals.example/", "title": "Deals"},
+        {"type": "organic", "url": "https://otherfly.example/", "title": "Other fly"}
+      ]
+    },
+    {
+      "gen_id": "g1", "keyword": "best vpn", "geo": "EU", "lang": "de", "device": "mobile", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "ad", "url": "https://ads-eu.example/", "title": "EU Anzeige"},
+        {"type": "organic", "url": "https://eu-vpn.example/", "title": "EU VPN"},
+        {"type": "organic", "url": "https://acme.example/de", "title": "Acme DE"},
+        {"type": "organic", "url": "https://zephyr.example/", "title": "Zephyr VPN"}
+      ]
+    },
+    {
+      "gen_id": "g2", "keyword": "best vpn", "geo": "EU", "lang": "de", "device": "mobile", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "ad", "url": "https://ads-eu.example/", "title": "EU Anzeige"},
+        {"type": "organic", "url": "https://eu-vpn.example/", "title": "EU VPN"},
+        {"type": "organic", "url": "https://zephyr.example/", "title": "Zephyr VPN"},
+        {"type": "organic", "url": "https://acme.example/de", "title": "Acme DE"}
+      ]
+    },
+    {
+      "gen_id": "g1", "keyword": "vpn review", "geo": "EU", "lang": "de", "device": "mobile", "page": 1,
+      "complete": false, "truncated": false, "async_pending": ["infinite-feed"],
+      "blocks": [
+        {"type": "organic", "url": "https://blog-de.example/", "title": "Blog DE"},
+        {"type": "organic", "url": "https://acme.example/faq", "title": "Acme FAQ DE"}
+      ]
+    },
+    {
+      "gen_id": "g2", "keyword": "vpn review", "geo": "EU", "lang": "de", "device": "mobile", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "organic", "url": "https://blog-de.example/", "title": "Blog DE"},
+        {"type": "organic", "url": "https://zephyr.example/faq", "title": "Zephyr FAQ DE"}
+      ]
+    },
+    {
+      "gen_id": "g1", "keyword": "cheap flights", "geo": "EU", "lang": "de", "device": "mobile", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "organic", "url": "https://fly-eu.example/", "title": "Flugsuche EU"},
+        {"type": "organic", "url": "https://nimbus.example/flights-de", "title": "Nimbus Flüge"}
+      ]
+    },
+    {
+      "gen_id": "g2", "keyword": "cheap flights", "geo": "EU", "lang": "de", "device": "mobile", "page": 1,
+      "complete": true, "truncated": false, "async_pending": [],
+      "blocks": [
+        {"type": "ad", "url": "https://ads-eu.example/flights", "title": "Flug Anzeige"},
+        {"type": "organic", "url": "https://fly-eu.example/", "title": "Flugsuche EU"},
+        {"type": "organic", "url": "https://nimbus.example/flights-de", "title": "Nimbus Flüge"}
+      ]
+    }
+  ]
+}
